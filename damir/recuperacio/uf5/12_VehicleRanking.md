@@ -1,0 +1,13 @@
+name: VehicleRanking
+authors: 
+  - joan.puigcerver
+keywords:
+  - Streams
+---
+# Exercici 12: VehicleRanking
+Ens demanen obtindre una sèrie d'informació a partir dels vehicles registrats. El programa llegirà la llista de vehicles i calcularà la següent informació:
+
+- El llistat ordenat per marca. Els cotxes de la mateixa marca, ordenar-los per model.
+- El llistat dels cotxes que han de portar la etiqueta B. Aquests son els vehicles diésel matriculats a partir del 2006. S'han de mostrar ordenats per any de matriculació.
+- L'últim BMW matriculat (any de matriculació).
+- El nombre de cotxes matriculats el 2017.

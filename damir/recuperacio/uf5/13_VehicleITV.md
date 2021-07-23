@@ -1,0 +1,14 @@
+name: VehicleITV
+authors: 
+  - joan.puigcerver
+keywords:
+  - Collections
+  - Queue
+---
+# Exercici 13: VehicleITV
+Ens demanen fer un programa per gestionar la entrada de vehicles per passar la revisió de l'ITV. Els cotxes aniran passant en ordre d'arribada.
+El programa accepta tres accions:
+- __NEW__: S'introdueix un cotxe per passar la revisió.
+- __NEXT__: Passa el següent cotxe a la revisió. Si no hi ha cap cotxe cal mostrar un missatge indicant-ho.
+- __END__: Tanca l'establiment. Cal mostrar per pantalla si queden vehicles, per apuntar-los i tindre'ls en compte el dia següent.
+

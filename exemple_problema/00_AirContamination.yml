@@ -1,0 +1,31 @@
+---
+name: AirContamination
+authors: 
+  - pep.pi
+source: Acepta el Reto # Aquest camp fa referencia si l'exercici prové d'algun altre lloc.
+keywords:
+  - arrays
+tests:
+  - name: public_test
+    input: "5 55 75 40 100 22"
+    output: |
+      Contaminació mijana: 58.40
+      Dies amb contaminació superior: 2
+  - name: _private_test # Tests que comencen amb una barra baixa '_' es consideren privats
+    input: "1 1"
+    output: |
+      Contaminació mijana: 1.00
+      Dies amb contaminació superior: 0
+
+# A partir dels --- s'especifica l'enunciat en format Markdown (.md)
+---
+# AirContamination
+Es vol un estudi de la contaminació atmosfèrica a la teva escola. 
+Per fer-ho, s'instal·la un petit sensor que cada hora enregistra la qualitat de l'aire actual, que medeix la contaminació i proporciona un
+enter entre 0 i 1000. Un cop obtinguts tots els valors vols coneixer quans dies la contaminació han estat per sobre de la mitjana.
+
+## Entrada
+L'entrada consisteix amb el nombre N valors de contaminació proporcionats pel sensor i els valors proporcionats.
+
+## Sortida
+S'ha de mostrar la contaminació mitjana amb __dos decimals__ i indicar el nombre de dies que han superat la contaminació mitjana.
