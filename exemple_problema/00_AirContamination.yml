@@ -7,12 +7,23 @@ keywords:
   - arrays
 tests:
   - name: public_test
-    input: "5 55 75 40 100 22"
+    input: |
+      5
+      55 75 40 100 22
     output: |
       Contaminació mijana: 58.40
       Dies amb contaminació superior: 2
+  - name: another_public_test
+    input: |
+      3
+      10 25 55
+    output: |
+      Contaminació mijana: 30.00
+      Dies amb contaminació superior: 1
   - name: _private_test # Tests que comencen amb una barra baixa '_' es consideren privats
-    input: "1 1"
+    input: |
+      1
+      1
     output: |
       Contaminació mijana: 1.00
       Dies amb contaminació superior: 0
